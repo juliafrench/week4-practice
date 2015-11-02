@@ -1,0 +1,73 @@
+
+
+body {
+  background-color: #fff);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+header {
+  text-align:center;
+  font-weight:800;
+  font-size: 4em;
+  line-height: 2em;
+  color: mediumpurple;
+  text-transform: capitalize;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+    }
+
+footer {
+  text-align: center;
+  align-items: center;
+  Width: 100%;
+  background-color: #fff;
+  list-style-type: none;
+  line-height: 1em;
+  color: mediumpurple;
+  position: sticky;
+  margin-bottom: 5em
+}
+  
+  a, li {
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: lowercase;
+    text-decoration-color: floralwhite;
+}
+
+
+nav.top {
+  display: inline-block
+  background-color: rebeccapurple;
+  }
+
+  
+  
+img {
+  padding-right: 5em;
+  padding-top: 12 em;
+  padding-bottom: 12 em;
+}
+
+
+
+  figure {
+  justify-content: space-around
+}
+
+figcaption {
+  text-align: center;
+  font: .2em
+}
+
+
+
+
+  
+  
+  
+ 
+  
+  
+  
