@@ -28,33 +28,56 @@ footer {
   position: sticky;
   margin-bottom: 5em
 }
-  
-  a, li {
+
+  a {
+    font-size: 1em;
     text-decoration: none;
     list-style-type: none;
     text-transform: lowercase;
-    text-decoration-color: floralwhite;
+    color: white;
+    padding: 6.5em;
+    }
+
+li {
+    font-size: .5em;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    text-transform: lowercase;
+    color: white;
+    padding: .2em 
 }
 
-
-nav.top {
-  display: inline-block
+nav#top {
+  padding:1em; 
+  text-align: center;
+  line-height: 1em;
   background-color: rebeccapurple;
+  border-width: 14.28;
   }
 
-  
+nav.aside {
+  margin-top: 0em;
+  display: inline-block;
+  padding: 0em; 
+  width: 20%;
+  background-color: plum;
+  font-size: 2em;
+  line-height: 2em;
+  text-transform: lowercase;
+  }
+    
   
 img {
   padding-right: 5em;
-  padding-top: 12 em;
-  padding-bottom: 12 em;
+  padding-top: 12em;
+  padding-bottom: 12em;
 }
 
-
-
-  figure {
-  justify-content: space-around
-}
+#main {
+float:right;
+margin: 0 0 10em 10em;
+  }
 
 figcaption {
   text-align: center;
