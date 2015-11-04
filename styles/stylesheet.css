@@ -1,96 +1,99 @@
-
-
 body {
   background-color: #fff);
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
 }
 
 header {
-  text-align:center;
-  font-weight:800;
+  text-align: center;
+  font-weight: 800;
   font-size: 4em;
   line-height: 2em;
-  color: mediumpurple;
+  color: #9370d8;
   text-transform: capitalize;
   position: relative;
   width: 100%;
   background-color: #fff;
-    }
-
-footer {
-  text-align: center;
-  align-items: center;
-  Width: 100%;
-  background-color: #fff;
-  list-style-type: none;
-  line-height: 1em;
-  color: mediumpurple;
-  position: sticky;
-  margin-bottom: 5em
 }
 
-  a {
-    font-size: 1em;
-    text-decoration: none;
-    list-style-type: none;
-    text-transform: lowercase;
-    color: white;
-    padding: 6.5em;
-    }
+a {
+  font-size: 1em;
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: lowercase;
+  color: #fff;
+  padding: 6.5em;
+}
 
 li {
-    font-size: .5em;
-    text-decoration: none;
-    list-style-type: none;
-    text-align: left;
-    text-transform: lowercase;
-    color: white;
-    padding: .2em 
+  font-size: .5em;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+  text-transform: lowercase;
+  color: #fff;
+  padding: .2em;
 }
 
 nav#top {
-  padding:1em; 
+  padding: 1em;
   text-align: center;
   line-height: 1em;
   background-color: rebeccapurple;
-  border-width: 14.28;
-  }
+  border-width: 14.28em;
+}
 
 nav.aside {
-  margin-top: 0em;
+  margin-top: 0;
   display: inline-block;
-  padding: 0em; 
+  float: left;
+  padding: 0;
   width: 20%;
-  background-color: plum;
+  background-color: #dda0dd;
   font-size: 2em;
   line-height: 2em;
+  height: 15em;
   text-transform: lowercase;
-  }
-    
-  
-img {
-  padding-right: 5em;
-  padding-top: 12em;
-  padding-bottom: 12em;
+}
+
+article {
+  display: inline-block;
+  float: right;
+  width: 80%;
+  height: 30em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #dcdcdc;
+  align-content: center;
 }
 
 #main {
-float:right;
-margin: 0 0 10em 10em;
-  }
-
-figcaption {
-  text-align: center;
-  font: .2em
+  display: block;
+  margin: 0 auto;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
+img {
+  padding-right: 2em;
+  padding-top: 2em;
+}
 
+figcaption {
+  display: block;
+  text-align: center;
+  font-weight: 300;
+}
 
-
-  
-  
-  
- 
-  
-  
-  
+footer {
+  clear: both;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 6em;
+  background-color: #fff;
+  list-style-type: none;
+  line-height: 1em;
+  color: #9370d8;
+  margin-bottom: 0;
+}
